@@ -5,15 +5,15 @@
     "passes": 5,
     "pending": 0,
     "failures": 4,
-    "start": "2024-03-22T20:15:40.844Z",
-    "end": "2024-03-22T20:15:41.984Z",
-    "duration": 1140
+    "start": "2024-03-22T20:18:46.054Z",
+    "end": "2024-03-22T20:18:47.235Z",
+    "duration": 1181
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -47,7 +47,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -87,7 +87,7 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected 'Thank you so much.' to equal 'Bye.'",
@@ -142,7 +142,7 @@
     {
       "title": "should return \"Bye.\" if anything else",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Bye.\" if anything else",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected 'Thank you so much.' to equal 'Bye.'",
@@ -157,7 +157,7 @@
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -178,7 +178,7 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
