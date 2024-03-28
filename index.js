@@ -5,14 +5,22 @@ function scuberGreetingForFeet(ride) {
     return "That will be twenty bucks.";
   } else if (ride > 2000) {
     return "I will gladly take your thirty bucks.";
-  } else if (ride >= 2501) {
+  } else if (ride > 2500) {
+    return "No can do";
   }
 }
 
-function ternaryCheckCity(_NYC) {
-  return "Ok, sounds good.";
+function ternaryCheckCity(ternaryCheckCity) {
+  return ternaryCheckCity === "NYC" ? "Ok, sounds good." : "No go.";
 }
 
-function switchOnCharmFromTip(_generous) {
-  return "Thank you so much.";
+function switchOnCharmFromTip(tip) {
+  switch (tip) {
+    case "generous":
+      return "Thank you so much.";
+    case "not as generous":
+      return "Thank you.";
+    default:
+      return "Bye.";
+  }
 }
